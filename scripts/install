@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+python -m pip install -r requirements.txt
