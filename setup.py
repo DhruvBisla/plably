@@ -17,7 +17,7 @@ setup(
     license="MIT",
     author="Dhruv Bisla",
     author_email="bisladhruv@gmail.com",
-    description="A simple plotly utility to generate graphsfor my lab reports.",
+    description="A simple plotly utility to generate graphs for my lab reports.",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     packages=find_packages(),
