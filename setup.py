@@ -22,6 +22,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     keywords=['plotly', 'graphs', 'utility', 'lab-report'],
+    entry_points={"console_scripts": ["plably=plably.main:main"]},
     classifiers=[
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
