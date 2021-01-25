@@ -1,3 +1,9 @@
+# Test generated output graph
+output.png
+
+#  Data generated for tests
+data.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
