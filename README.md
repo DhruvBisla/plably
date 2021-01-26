@@ -7,10 +7,10 @@
 ## Background
 
 ### Motivation
-Plably is the tool I creatd to make graphs for my lab reports. It includes some extra functionality I could not find including graphing uncertainty.
+Plably is the tool I created to make graphs for my lab reports. It includes some extra functionality I could not find including graphing uncertainty.
 
 ### What type of a name is Plably?
-Admittedly, it is rather poorly named. 'Plably' is the combination of the two words 'plotly' and 'lab', being the tool I use for lab reports which uses plotly.
+Admittedly, it is rather poorly named. 'Plably' is the combination of the two words 'plotly' and 'lab', being the tool I use for lab reports which uses [plotly](https://github.com/plotly/plotly.py).
 
 ## Installation
 
@@ -18,7 +18,7 @@ Admittedly, it is rather poorly named. 'Plably' is the combination of the two wo
 pipx install plably
 ```
 
-For the best command line experience, plably may be installed via pipx. If you do not have pipx installed, you may find installation instructions [here](https://pipxproject.github.io/pipx/installation/).
+For the best command line experience, plably may be installed via pipx. If you do not have pipx installed, you may follow the installation instructions [here](https://pipxproject.github.io/pipx/installation/).
 
 ## Usage
 
