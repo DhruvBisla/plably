@@ -5,9 +5,9 @@ from . import plot
 
 def main():
     parser = argparse.ArgumentParser(prog='plably', description='Create a graph')
-    parser.add_argument("name", help="The name of the graph")
+    parser.add_argument("name", help="The title of the graph")
     parser.add_argument("data", help="Path to the data source")
-    parser.add_argument("out", help="Path to the generated plably graph")
+    parser.add_argument("out", help="Path to write the generated plably graph")
     args = parser.parse_args()
 
     if not path.exists(args.data):
