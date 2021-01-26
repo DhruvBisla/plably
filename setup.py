@@ -30,7 +30,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    requires = ['plotly','kaleido'],
-    install_requires=['plotly','kaleido'],
+    requires = ['numpy','pandas','plotly','kaleido'],
+    install_requires=['numpy','pandas','plotly','kaleido'],
     zip_safe=False,
 )
