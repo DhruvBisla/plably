@@ -7,18 +7,18 @@
 ## Background
 
 ### Motivation
-Plably is the tool I created to make graphs for my lab reports. It includes some extra functionality I could not find including graphing uncertainty.
+I use plably to generate the graphs for my lab reports. It incorporates some extra functionality I could not find in other software, including that of graphing uncertainty.
 
-### What type of a name is Plably?
-Admittedly, it is rather poorly named. 'Plably' is the combination of the two words 'plotly' and 'lab', being the tool I use for lab reports which uses [plotly](https://github.com/plotly/plotly.py).
+### Plably??
+Alright, I could've been a bit more creative. "Plably" is the combination of the two words ["plotly"](https://github.com/plotly/plotly.py) and "lab," the python library used to generate the graphs and the purpose of the tool, respectively.
 
 ## Installation
 
 ```shell
-pipx install plably
+pip install plably
 ```
 
-For the best command line experience, plably may be installed via pipx. If you do not have pipx installed, you may follow the installation instructions [here](https://pipxproject.github.io/pipx/installation/).
+Plably may be installed with pip using the command given above.
 
 ## Usage
 
@@ -26,4 +26,4 @@ For the best command line experience, plably may be installed via pipx. If you d
 plably <title> <data> <output>
 ```
 
-Where title is the title, in the form 'Dependent Variable vs. Independent Variable,' data is the path to the input csv file, and output is the path to write the generated graph to.
+Where title is the title, in the form "Dependent Variable vs. Independent Variable," data is the path to the input csv file, and output is the path to write the generated graph to.
